@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package lexical.analizer;
 
 import java.util.ArrayList;
@@ -10,7 +6,7 @@ import java.util.Arrays;
 
 /**
  *
- * @author thiago
+ * @author Thiago Luiz Nunes
  */
 public class Tokens {
     
@@ -109,5 +105,4 @@ public class Tokens {
         }
         return "unknown";
     }    
-           
 }
