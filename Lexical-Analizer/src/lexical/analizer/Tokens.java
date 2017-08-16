@@ -27,9 +27,7 @@ public class Tokens {
     protected String floatDigits = "[0-9]+[.][0-9]+";
     protected String[] booleanDigits = {"true", "false"};
 
-    public Tokens() {
+    public Tokens(ArrayList<String> myArrayList) {
     }
-    
-    
-    
+           
 }
