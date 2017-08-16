@@ -26,8 +26,17 @@ public class Tokens {
     protected String intDigits = "[0-9]+";
     protected String floatDigits = "[0-9]+[.][0-9]+";
     protected String[] booleanDigits = {"true", "false"};
+    
+    protected ArrayList<String> myProgram = null;
 
     public Tokens(ArrayList<String> myArrayList) {
+        this.myProgram = myArrayList;
+    }
+    
+    public void lexicAnalizer() {
+        
+        for(int i = 0; i < this.myProgram.size(); i++) {
+        }
     }
            
 }

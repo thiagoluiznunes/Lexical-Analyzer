@@ -6,6 +6,7 @@
 package lexical.analizer;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -24,7 +25,7 @@ public class LexicalAnalizer {
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
     // Open the file
-    FileInputStream fstream = new FileInputStream("textfile.txt");
+    FileInputStream fstream = new FileInputStream("src/lexical/analizer/textfile");
     BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
 
     String strLine;
@@ -33,6 +34,7 @@ public class LexicalAnalizer {
     //Read File Line By Line
     while ((strLine = br.readLine()) != null)   {
       lines.add(strLine);
+        System.out.println(strLine);
     }
     //Close the input stream
     br.close();
