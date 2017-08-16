@@ -40,6 +40,8 @@ public class LexicalAnalizer {
     br.close();
     
     Tokens token = new Tokens(lines);
+    System.out.println();
+    int resp = token.lexicAnalizer();
     
     }
     
