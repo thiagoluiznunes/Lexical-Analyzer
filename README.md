@@ -1,1 +1,1 @@
-# Lexical-Analizer
+# Lexical-Analyzer
